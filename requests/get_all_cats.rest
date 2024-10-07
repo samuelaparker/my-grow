@@ -12,3 +12,6 @@ content-type: application/json
     "name": "sample",
     "time": "Wed, 21 Oct 2015 18:27:50 GMT"
 }
+
+
+//docs for REST client plugin: https://github.com/Huachao/vscode-restclient/blob/master/README.md#usage
