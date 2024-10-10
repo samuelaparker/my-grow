@@ -17,7 +17,7 @@ import {
 @Controller('cats')
 export class CatsController {
   @Post()
-  create(@Body() createCatDto: CreateCatDto) {
+  create(@Body() CreateCatDto: CreateCatDto) {
     return 'This action adds a new cat';
   }
 
