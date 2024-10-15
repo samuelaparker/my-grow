@@ -13,6 +13,7 @@ import { DogsService } from './dogs/dogs.service';
 import { DogsModule } from './dogs/dogs.module';
 import { CatsService } from './cats/cats.service';
 import { PlantsModule } from './plants/plants.module';
+import { PlantsService } from './plants/plants.service';
 import { PlantsController } from './plants/plants.controller';
 import { LoggerMiddleware } from './common/middleware/logger.middleware';
 
@@ -24,7 +25,7 @@ import { LoggerMiddleware } from './common/middleware/logger.middleware';
     DogsController,
     PlantsController,
   ],
-  providers: [AppService, DogsService, CatsService],
+  providers: [AppService, DogsService, CatsService, PlantsService],
 })
 export class AppModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
