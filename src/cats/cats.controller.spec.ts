@@ -16,7 +16,7 @@ describe('CatsController', () => {
 
   describe('root', () => {
     it('should return "All cats"', () => {
-      expect(catsController.getCats()).toBe('All cats');
+      expect(catsController.findAll()).toBe('All cats');
     });
   });
 });

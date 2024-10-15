@@ -13,6 +13,6 @@ describe('CatsService', () => {
   });
 
   it('should be All cats', () => {
-    expect(service.getCats()).toBe('All cats');
+    expect(service.findAll()).toBe('All cats');
   });
 });
